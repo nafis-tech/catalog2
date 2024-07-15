@@ -405,7 +405,6 @@ a img.aligncenter {
 .menu__item--active {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-	  color: orange; /* For text color */
           
           
 }
@@ -421,7 +420,7 @@ a img.aligncenter {
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .menu__link:hover {
-	color: #292929;
+	color: orange;
 }
 .menu__link:before {
   content: "";
