@@ -384,6 +384,8 @@ a img.aligncenter {
 .menu__list--active {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
+	  color: orange; /* For text color */
+          background-color: orange; /* For background color */
           
 }
 .menu__brand {
