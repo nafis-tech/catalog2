@@ -1813,12 +1813,12 @@ hr.invis1 {
     transition: all 0.3s ease 0s;
 }
 
-.gallery-single3 img{
+/* .gallery-single3 img{
     width: 80%;
     height: 100%;
     transform: scale(1.6);
     transition: all 0.3s ease 0s;
-}
+} */
 .gallery-single3{
     margin: 15px 15px;
     display: flex;
