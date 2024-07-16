@@ -1813,6 +1813,26 @@ hr.invis1 {
     transition: all 0.3s ease 0s;
 }
 
+.gallery-single3 img{
+    width: 80%;
+    height: 100%;
+    transform: scale(1.6);
+    transition: all 0.3s ease 0s;
+}
+.gallery-single3{
+    margin: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 calc(50% - 30px); 
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+	/* border: 10px solid #f9ba1f; */
+    border-radius: 20px;
+    width: 95% ;
+    height: auto;
+}
 .gallery-single:hover img{
     filter: grayscale(100%);
     transform: scale(1.2);
