@@ -1770,7 +1770,7 @@ hr.invis1 {
 	font-size: 12px;
 	cursor: pointer;
 	background: black;
-	padding: 8px 15px;
+	padding: 8px 30px;
 	border: none;
 	border-radius: 20px;
     border: white solid; 
@@ -1950,6 +1950,9 @@ hr.invis1 {
         margin-bottom: 30px;
         flex: 1 1 calc(50% - 30px);
     }
+    .filter-button-group button{
+	padding: 8px 15px;
+    }
 }
 
 @media only screen and (max-width: 479px) {
@@ -1960,6 +1963,9 @@ hr.invis1 {
 
     .gallery-single .title {
         font-size: 18px;
+    }
+    .filter-button-group button{
+	padding: 8px 15px;
     }
 }
 
