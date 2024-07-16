@@ -1807,11 +1807,12 @@ hr.invis1 {
 }
 
 .gallery-single2 img{
-    width: 75%;
-    height: auto;
+    width: auto;
+    height: 50%;
     transform: scale(1.6);
     transition: all 0.3s ease 0s;
 }
+
 .gallery-single:hover img{
     filter: grayscale(100%);
     transform: scale(1.2);
