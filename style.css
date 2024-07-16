@@ -1750,7 +1750,7 @@ hr.invis1 {
 
 .filter-button-group{
 	border-radius: 0px;
-	margin: 10px 0px;
+	margin: 7px 0px;
 	display: inline-block;
     
 }
@@ -1767,10 +1767,10 @@ hr.invis1 {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 12px;
 	cursor: pointer;
 	background: black;
-	padding: 12px 40px;
+	padding: 10px 30px;
 	border: none;
 	border-radius: 20px;
     border: white solid; 
