@@ -1770,9 +1770,9 @@ hr.invis1 {
 	font-size: 12px;
 	cursor: pointer;
 	background: black;
-	padding: 0.7rem;
+	padding: 1rem 2rem;
 	border: none;
-	border-radius: 10px;
+	border-radius: 20px;
     border: white solid; 
 }
 
