@@ -1805,7 +1805,7 @@ hr.invis1 {
 }
 
 .gallery-single2:hover img{
-    transform: none;
+   filter: grayscale(100%);
 }
 /* peutup 2  */
 
