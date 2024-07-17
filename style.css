@@ -2100,17 +2100,12 @@ hr.invis1 {
         margin: 15px;
         flex: 1 1 calc(50% - 30px);
     }
-	.gallery-single2 {
-        margin: 15px;
-        flex: 1 1 calc(50% - 30px);
-    }
+	
 
     .gallery-single .title {
         font-size: 18px;
     }
-    .filter-button-group button{
-	padding: 8px 10px;
-    }
+   
 }
 
 
