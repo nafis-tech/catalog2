@@ -1919,7 +1919,6 @@ hr.invis1 {
     color: #faac01;
 }
 /* peutup 2  */
-
 .gallery-single{
     margin: 15px 15px;
     display: flex;
@@ -1932,17 +1931,47 @@ hr.invis1 {
 	/* border: 10px solid #f9ba1f; */
     border-radius: 20px;
 }
-.gallery-single img{
+.img{
     width: 100%;
     height: auto;
     transform: scale(1.6);
     transition: all 0.3s ease 0s;
 }
-
-.gallery-single:hover img{
-    filter: grayscale(100%);
-    transform: scale(1.2);
+.img2{
+    width: 80% ;
+    height: 50%;
+    transform: scale(1.6);
+    transition: all 0.3s ease 0s;
 }
+
+
+
+
+.gallery-single2 img{
+    width: 70%;
+    height: auto;
+    transform: scale(1.6);
+    transition: all 0.3s ease 0s;
+   
+}
+
+
+.gallery-single2{
+    margin: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex: 1 1 calc(50% - 30px);  */
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+	/* border: 10px solid #f9ba1f; */
+    border-radius: 20px;
+    width: 100% ;
+}
+/* yang dipakai youtube */
+
+
 .gallery-single .box-content{
     width: 100%;
     height: 100%;
@@ -1952,8 +1981,15 @@ hr.invis1 {
     z-index: 2;
     transition: all 0.2s ease 0s;
 }
-
-.gallery-single:before,
+.gallery-single2 .box-content{
+    width: 100%;
+    height: 100%;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all 0.2s ease 0s; */
+}
 .gallery-single:after,
 .gallery-single .box-content:before,
 .gallery-single .box-content:after{
@@ -2033,7 +2069,6 @@ hr.invis1 {
     z-index: 2;
     transition: all 0.4s ease 0.2s;
 }
-
 .gallery-single:hover .icon{ top: 15px; }
 .gallery-single .icon li a{
     display: block;
