@@ -21,13 +21,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
     <!-- Site CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
+	<link rel="stylesheet" href="path/to/prettyPhoto.css">
     <link rel="stylesheet" href="css/custom.css">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
@@ -152,7 +152,7 @@
 
 			<div class="gallery-list row" style="background-color: black;"> 
 				<div class="col-md-4 gallery-grid photo_a" >
-					<div class="gallery-single2 gallery-single fix">
+					<div class="gallery-single2 fix">
 						<a href="uploads/gallery_img-01.jpg" data-rel="prettyPhoto[gal]">
 							<img src="uploads/gallery_img-01.jpg" class="img-fluid img2" alt="Image">
 						</a>
@@ -160,7 +160,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 gallery-grid photo_a" >
-					<div class="gallery-single2 gallery-single fix">
+					<div class="gallery-single2 fix">
 						<a href="uploads/gallery_img-02.jpg" data-rel="prettyPhoto[gal]">
 							<img src="uploads/gallery_img-02.jpg" class="img-fluid img2" alt="Image">
 						</a>
@@ -224,6 +224,13 @@
 	<script src="js/zepto.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/slider.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 	<script src="path/to/jquery.prettyPhoto.js"></script>
+	<script>
+	  $(document).ready(function(){
+	    $("a[data-rel^='prettyPhoto']").prettyPhoto();
+	  });
+	</script>
 	<script>
 		// Get the modal
 		var modal = document.getElementById("myModal");
