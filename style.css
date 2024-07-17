@@ -1804,6 +1804,8 @@ hr.invis1 {
     height: auto;
 }
 
+.gallery-single2:hover img{
+    transform: none;
 }
 /* peutup 2  */
 
@@ -1949,6 +1951,10 @@ hr.invis1 {
 
 @media only screen and (max-width: 479px) {
     .gallery-single {
+        margin: 15px;
+        flex: 1 1 calc(50% - 30px);
+    }
+	.gallery-single2 {
         margin: 15px;
         flex: 1 1 calc(50% - 30px);
     }
