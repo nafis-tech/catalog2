@@ -1804,48 +1804,6 @@ hr.invis1 {
     height: auto;
 }
 
-.gallery-single2:hover img{
-    
-    transform: none;
-}
-.gallery-single2 .box-content{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    transition: all 0.2s ease 0s;
-}
-
-.gallery-single2:before,
-.gallery-single2:after,
-.gallery-single2 .box-content:before,
-.gallery-single2 .box-content:after{
-    
-    transform: none;
-}
-.gallery-single2:before{ transform: none; }
-.gallery-single2:after{
-    height: 25.1%;
-    top: 25%;
-    transform: none;
-}
-.gallery-single2 .box-content:before{
-    top: 50%;
-    transform: none;
-}
-.gallery-single2 .box-content:after{
-    top: 75%;
-    transform: none;
-}
-.gallery-single2:hover:before,
-.gallery-single2:hover:after,
-.gallery-single2:hover .box-content:before,
-.gallery-single2:hover .box-content:after{ transform: none; }
-.gallery-single2 .inner-content{
-    
-   
 }
 /* peutup 2  */
 
@@ -1962,16 +1920,7 @@ hr.invis1 {
     z-index: 2;
     transition: all 0.4s ease 0.2s;
 }
-.gallery-single2 .icon{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    position: absolute;
-    top: -200px;
-    left: 10px;
-    z-index: 2;
-    transition: all 0.4s ease 0.2s;
-}
+
 .gallery-single:hover .icon{ top: 15px; }
 .gallery-single .icon li a{
     display: block;
