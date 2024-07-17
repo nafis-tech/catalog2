@@ -1,4 +1,4 @@
-/*------------------------------------------------------------------
+ƒ/*------------------------------------------------------------------
     Version: 1.0
 -------------------------------------------------------------------*/
 
@@ -1802,12 +1802,10 @@ hr.invis1 {
 .gallery-single2 img{
     width: 70%;
     height: auto;
-    transform: scale(1.6);
-    transition: all 0.3s ease 0s;
 }
 
 .gallery-single2:hover img{
-    filter: grayscale(100%);
+    
     transform: none;
 }
 .gallery-single2 .box-content{
@@ -1846,7 +1844,7 @@ hr.invis1 {
 .gallery-single2:hover .box-content:before,
 .gallery-single2:hover .box-content:after{ transform: none; }
 .gallery-single2 .inner-content{
-    padding: 7px 0;
+    
    
 }
 /* peutup 2  */
